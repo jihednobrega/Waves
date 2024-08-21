@@ -1,0 +1,466 @@
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo&family=DM+Mono:wght@500&family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Lato&family=Manrope:wght@600;700;800&family=Merriweather:wght@700;900&family=Nunito:wght@900&family=Oswald:wght@700&family=Poppins:wght@500&family=Work+Sans&family=Archivo:wght@600&family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@700&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Waves - Produto</title>
+  <link rel="icon" href="../../assets/icons/favicon.svg" sizes="32x32">
+
+  <link rel="stylesheet" href="../../style.css">
+
+  <script type="module" src="../../script.js"></script>
+  <script type="module" src="products.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="headerLeft">
+      <a href="#" class="mobile menu">
+        <img src="../../assets/icons/menu.svg" alt="Menu">
+      </a>
+
+      <a href="../../index.html" class="logo">
+        <img src="../../assets/logo/waves-logo.svg" alt="Logo Waves">
+      </a>
+
+     <nav class="headerNavigation">
+        <ul>
+          <li><a href="#">Masculino</a></li>
+          <li><a href="#">Feminino</a></li>
+          <li><a href="#">Novidades</a></li>
+          <li><a href="#">Acessórios</a></li>
+          <li><a href="#">Bonés</a></li>
+          <li><a href="#">Marcas</a></li>
+          <li><a href="#">Sale</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="headerRight">
+      <div class="headerIcons">
+        <div class="inputWrapper">
+            <label class="sr-only" for="filter">Busca</label>
+            <input id="filter" type="text" placeholder="Busca" class="searchInput">
+            <img src="../../assets/icons/search-icon.svg" alt="Buscar" class="searchIcon">
+            <img src="../../assets/icons/arrow-right.svg" alt="" class="mobile inputExit">
+        </div>
+
+        <a href="#"><img src="../../assets/icons/profile-icon.svg" alt="Conta"></a>
+
+        <a href="#"><img src="../../assets/icons/header-like-icon.svg" alt="Favoritos"></a>
+
+        <a href="#" class="shopCart">
+          <img src="../../assets/icons/shopping-cart icon.svg" alt="Carrinho">
+          <span class="shopCount">0</span>
+        </a>
+
+        <a href="#" class="mobile shopBag">
+          <img src="../../assets/icons/shopping-bag.svg" alt="Sacola de compras">
+          <span class="shopCount">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+    
+  <div class="container">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="productPage">
+      <section class="product">
+        <div class="productImage" title="nome do produto">
+          <img src="" alt="">
+        </div>
+      </section>
+      <section class="productInfos">
+        <div class="productTags">
+          <a class="productTag" href="#">tags</a>
+        </div>
+        <div>
+          <h1 class="productName" title="nome do produto">nome do produto</h3>
+          </div>
+        <div class="productRating">
+          <span class="ratingStars">
+            <img src="../../assets/icons/actived-star.svg" alt="">
+            <img src="../../assets/icons/actived-star.svg" alt="">
+            <img src="../../assets/icons/actived-star.svg" alt="">
+            <img src="../../assets/icons/actived-star.svg" alt="">
+            <img src="../../assets/icons/star.svg" alt="">
+          </span>
+          <span class="totalRatingQuantity">(numero de avaliações)</span>
+        </div>
+        <div class="productPricing">
+          <div class="price-installment">
+            <div class="price">
+              <span>R$</span>
+              <p class="priceReais">reais</p>
+              <span class="priceCents">centavos</span>
+            </div>
+            <span class="oldPrice">preço antigo</span>
+            <p class="discount">desconto</p>
+            <p class="installment">ou em até <span class="maxInstallment">quantidade de parcelas</span> de <span class="installmentPrice">valor do produto parcelado</span> sem juros</p>
+          </div>
+            <button class="favoriteBtn">
+              <img src="../../assets/icons/like-icon.svg" alt="Like">
+            </button>
+        </div>
+        <hr>
+        <div class="colorOptions">
+          <div class="textColorOptions">Cor do produto:
+            <span class="productColor">cor</span>
+          </div>
+          <div class="imageProductColorOptions">
+            <img class="colorThumbnail" src="" alt="">
+          </div>
+        </div>
+        <hr>
+        <div class="shippingCalculator">
+          <p>Calcule o frete e entrega:</p>
+          <div class="inputWrapper">
+            <label class="sr-only" for="zipCode">Calcule o frete:</label>
+            <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17 16.0022C17 17.1072 16.104 18.0022 15 18.0022C13.896 18.0022 13 17.1072 13 16.0022C13 14.8972 13.896 14.0022 15 14.0022C16.104 14.0022 17 14.8972 17 16.0022ZM5 14.0022C3.896 14.0022 3 14.8972 3 16.0022C3 17.1072 3.896 18.0022 5 18.0022C6.104 18.0022 7 17.1072 7 16.0022C7 14.8972 6.104 14.0022 5 14.0022ZM19.75 10.5822V13.5022C19.75 14.2222 19.41 14.8522 18.89 15.2622C18.83 15.3122 18.72 15.3622 18.65 15.3622C18.53 15.3622 18.42 15.3022 18.39 15.1722C18.03 13.6422 16.64 12.5022 15 12.5022C13.24 12.5022 11.791 13.8012 11.54 15.4912C11.518 15.6392 11.4 15.7522 11.25 15.7522H8.75C8.6 15.7522 8.48196 15.6392 8.45996 15.4912C8.20996 13.8012 6.76 12.5022 5 12.5022C3.36 12.5022 1.96999 13.6422 1.60999 15.1722C1.57999 15.2922 1.45996 15.3722 1.32996 15.3622C1.27996 15.3622 1.15999 15.3022 1.10999 15.2622C0.589985 14.8522 0.25 14.2222 0.25 13.5022V11.0522C0.25 10.8862 0.384049 10.7522 0.550049 10.7522H8C8.41 10.7522 8.75 10.4122 8.75 10.0022C8.75 9.5922 8.41 9.2522 8 9.2522H0.550049C0.384049 9.2522 0.25 9.11821 0.25 8.95221V2.5022C0.25 1.2652 1.262 0.252197 2.5 0.252197H10.5C11.738 0.252197 12.75 1.2652 12.75 2.5022V4.2522H14.97C17.51 4.2522 17.99 5.45218 18.45 6.61218L19.49 9.18219C19.56 9.37219 19.62 9.57221 19.66 9.76221C19.68 9.82221 19.7 9.89222 19.7 9.96222C19.73 10.1622 19.75 10.3722 19.75 10.5822ZM17.9 9.2522L17.05 7.17218C16.63 6.11218 16.49 5.7522 14.97 5.7522H12.75V9.2522H17.9Z" fill="#AEAEAE"/>
+            </svg>
+            <input type="text" id="zipCode" name="zipCode" placeholder="Insira seu CEP" maxlength="8">
+          </div>
+          <div id="shippingResult">Digite um CEP para ver o valor do frete.</div>
+        </div>
+        <div class="productWarranty">
+          <img src="../../assets/icons/arrow-back.svg" alt="">
+          <span>Não serviu? Devolução garantida até 7 dias.</span>
+        </div>
+        <hr>
+        <div class="productSizes">
+          <div class="textSizeOptions">
+            <p>Selecione seu tamanho:</p>
+            <a href="#" class="sizeGuide">
+              <img src="../../assets/icons/size-guide.svg" alt="">
+              <span>Guia de tamanhos</span>
+            </a>
+            <div class="tableOverlay" style="display: none;"></div>
+            <div class="tableSizesGuide" style="display: none;">
+              <h2 class="tableTitle">Guia de tamanhos</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>BR</th>
+                    <th>US</th>
+                    <th>EURO</th>
+                    <th>cm</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>34</td>
+                    <td>4,5</td>
+                    <td>36</td>
+                    <td>23</td>
+                  </tr>
+                  <tr>
+                    <td>35</td>
+                    <td>5</td>
+                    <td>37</td>
+                    <td>23,5</td>
+                  </tr>
+                  <tr>
+                    <td>36</td>
+                    <td>5,5</td>
+                    <td>38</td>
+                    <td>24</td>
+                  </tr>
+                  <tr>
+                    <td>37</td>
+                    <td>6</td>
+                    <td>39</td>
+                    <td>24,5</td>
+                  </tr>
+                  <tr>
+                    <td>38</td>
+                    <td>7</td>
+                    <td>40</td>
+                    <td>25</td>
+                  </tr>
+                  <tr>
+                    <td>39</td>
+                    <td>7,5</td>
+                    <td>41</td>
+                    <td>25,5</td>
+                  </tr>
+                  <tr>
+                    <td>40</td>
+                    <td>8</td>
+                    <td>42</td>
+                    <td>26</td>
+                  </tr>
+                  <tr>
+                    <td>41</td>
+                    <td>9</td>
+                    <td>43</td>
+                    <td>27</td>
+                  </tr>
+                  <tr>
+                    <td>42</td>
+                    <td>10</td>
+                    <td>44</td>
+                    <td>28</td>
+                  </tr>
+                  <tr>
+                    <td>43</td>
+                    <td>11</td>
+                    <td>45</td>
+                    <td>29</td>
+                  </tr>
+                  <tr>
+                    <td>44</td>
+                    <td>12</td>
+                    <td>46</td>
+                    <td>30</td>
+                  </tr>
+                  <tr>
+                    <td>45</td>
+                    <td>12,5</td>
+                    <td>47</td>
+                    <td>30,5</td>
+                  </tr>
+                  <tr>
+                    <td>46</td>
+                    <td>13</td>
+                    <td>48</td>
+                    <td>31</td>
+                  </tr>
+                </tbody>
+              </table>
+              <button class="tableClose">Fechar</button>
+            </div>
+            <div class="sizesProduct">
+              <div class="sizeOption">00</div>
+            </div>
+            <div class="productBuy">
+              <div>
+                <span>Selecione a quantidade:</span>
+                <div class="inputBuy">
+                  <label class="sr-only" for="quantity">Quantidade:</label>
+                  <button type="button" class="inputMinus">
+                    <img src="../../assets/icons/minus.svg" alt="">
+                  </button>
+                  <input type="text" id="quantity" name="quantity" value="01" min="01" readonly>
+                  <button type="button" class="inputPlus">
+                    <img src="../../assets/icons/plus.svg" alt="">
+                  </button>
+                </div>
+              </div>
+              <button class="addToCart">Adicionar ao carrinho</button>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </section>
+      <section class="productBanner">
+        <img src="" alt="">
+      </section>
+      <section class="descriptionSection">
+        <div class="descriptionWrapper">
+          <img class="descriptionImage" src="" alt="">
+          <a href="#" class="descriptionTitle">Sobre o Produto
+            <button class="buttonRotate">
+              <img src="../../assets/icons/arrow-dropdown.svg" alt="">
+            </button>
+          </a>
+          <p class="productDescription">Descrição do produto...</p>
+        </div>
+      </section>
+      <section class="detailsSection">
+        <div class="detailsWrapper">
+          <img class="detailsImage" src="" alt="">
+          <a href="#" class="detailsTitle">Detalhes
+            <button class="buttonRotate">
+              <img src="../../assets/icons/arrow-dropdown.svg" alt="">
+            </button>
+          </a>
+          <ul class="productDetails">
+            <li>Detalhes do produto</li>
+          </ul>
+        </div>
+        </section>  
+      
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <aside class="aside">
+      <div class="newsletter">
+        <div class="newsletterText">
+          FIQUE POR DENTRO DAS <span>NOVIDADES</span> E <span>PROMOÇÕES</span>
+        </div>
+        <form class="newsletterForm">
+          <label class="sr-only" for="filter">Digite seu email</label>
+          <input id="email" type="email" placeholder="Digite seu e-mail..." required autocomplete="on">
+          <button type="btnSubmit">
+            <svg width="23" height="22" viewBox="0 0 23 22" fill="none" alt="Enviar" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.4461 20.5533L22.0168 11.8046C22.6611 11.1464 22.6611 9.98162 22.0168 9.32104L13.4461 0.572433C12.7768 -0.109156 11.6955 -0.106821 11.0308 0.579437C10.3661 1.26569 10.3661 2.37211 11.0353 3.05603L16.674 8.81452L2.20732 8.81452C1.2626 8.81452 0.499999 9.59881 0.499999 10.5652C0.499999 11.5315 1.2626 12.3158 2.20732 12.3158L16.674 12.3158L11.0353 18.072C10.7007 18.4151 10.5345 18.8633 10.5345 19.3138C10.5345 19.7596 10.7007 20.2078 11.0308 20.5486C11.6955 21.2325 12.7768 21.2348 13.4461 20.5533Z" fill="black"/> 
+              </svg>
+          </button>
+        </form>
+      </div>
+    </aside>
+  </div>
+
+  <div class="infos">
+    <img src="../../assets/icons/mobile-arrow-left.svg" alt="more infos" class="mobile leftArrow">
+    <img src="../../assets/icons/mobile-arrow-right.svg" alt="more infos" class="mobile rightArrow">
+    <div class="infoContainer">
+      <div class="info">
+        <a href="#">
+          <img src="../../assets/icons/originals.svg" alt="100% Originais">
+          <span>100% Originais</span>
+        </a>
+      </div>
+      <div class="info">
+        <a href="#">
+          <img src="../../assets/icons/credit-card.svg" alt="Pagamento">
+          <span>6x Sem Juros</span>
+        </a>
+      </div>
+      <div class="info">
+        <a href="#">
+          <img src="../../assets/icons/truck.svg" alt="Frete Grátis">
+          <span>Frete Grátis</span>
+        </a>
+      </div>
+      <div class="info">
+        <a href="#">
+          <img src="../../assets/icons/refresh.svg" alt="Devolução Gratuita">
+          <span>Devolução Gratuita</span>
+        </a>
+      </div>
+      <div class="info">
+        <a href="#">
+          <img src="../../assets/icons/smile.svg" alt="Precisa de ajuda?">
+          <span>Precisa de ajuda?</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footerContainer">
+      <div class="footerBrand">
+          <img src="../../assets/logo/waves-logo.svg" alt="Logo Waves" class="footerLogo">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="socialIcons">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+              <div class="socialMedia">
+                <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg" alt="Facebook">
+                  <path d="M7.54383 8.60566L7.94062 6.0669H5.45972V4.41942C5.45972 3.72486 5.80628 3.04784 6.9174 3.04784H8.04526V0.886359C8.04526 0.886359 7.02176 0.714844 6.04318 0.714844C4.00008 0.714844 2.66462 1.9308 2.66462 4.13201V6.0669H0.393555V8.60566H2.66462V14.743H5.45972V8.60566H7.54383Z" fill="white"/>
+                  </svg>
+              </div>
+            </a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+              <div class="socialMedia">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" alt="Instagram">
+                  <path d="M7.6084 4.13227C5.61802 4.13227 4.01257 5.73808 4.01257 7.7289C4.01257 9.71973 5.61802 11.3255 7.6084 11.3255C9.59878 11.3255 11.2042 9.71973 11.2042 7.7289C11.2042 5.73808 9.59878 4.13227 7.6084 4.13227ZM7.6084 10.0672C6.32216 10.0672 5.27064 9.01856 5.27064 7.7289C5.27064 6.43925 6.31903 5.39062 7.6084 5.39062C8.89776 5.39062 9.94616 6.43925 9.94616 7.7289C9.94616 9.01856 8.89463 10.0672 7.6084 10.0672ZM12.19 3.98515C12.19 4.45155 11.8145 4.82405 11.3513 4.82405C10.885 4.82405 10.5126 4.44842 10.5126 3.98515C10.5126 3.52188 10.8881 3.14625 11.3513 3.14625C11.8145 3.14625 12.19 3.52188 12.19 3.98515ZM14.5716 4.83657C14.5184 3.71282 14.2618 2.71741 13.4387 1.89729C12.6188 1.07717 11.6236 0.820489 10.5001 0.764145C9.34216 0.69841 5.87151 0.69841 4.71358 0.764145C3.59321 0.817359 2.59802 1.07404 1.77495 1.89416C0.951887 2.71428 0.698395 3.70969 0.642064 4.83344C0.576343 5.99163 0.576343 9.46305 0.642064 10.6212C0.695266 11.745 0.951887 12.7404 1.77495 13.5605C2.59802 14.3806 3.59008 14.6373 4.71358 14.6937C5.87151 14.7594 9.34216 14.7594 10.5001 14.6937C11.6236 14.6404 12.6188 14.3838 13.4387 13.5605C14.2586 12.7404 14.5153 11.745 14.5716 10.6212C14.6373 9.46305 14.6373 5.99476 14.5716 4.83657ZM13.0757 11.8639C12.8316 12.4775 12.359 12.9501 11.7425 13.1974C10.8193 13.5636 8.62862 13.4791 7.6084 13.4791C6.58817 13.4791 4.39437 13.5605 3.47429 13.1974C2.8609 12.9533 2.38834 12.4806 2.14111 11.8639C1.77495 10.9405 1.85945 8.74936 1.85945 7.7289C1.85945 6.70845 1.77808 4.51416 2.14111 3.59387C2.38521 2.98035 2.85777 2.50768 3.47429 2.26039C4.3975 1.89416 6.58817 1.97867 7.6084 1.97867C8.62862 1.97867 10.8224 1.89729 11.7425 2.26039C12.3559 2.50455 12.8285 2.97722 13.0757 3.59387C13.4418 4.51729 13.3573 6.70845 13.3573 7.7289C13.3573 8.74936 13.4418 10.9436 13.0757 11.8639Z" fill="white"/>
+                  </svg>
+              </div>
+            </a>
+          </div>
+          <div class="mobile sacContact">
+            sac@waves.com
+          </div>
+      </div>
+      <div class="footerLinks">
+          <h4>Links Rápidos</h4>
+          <ul>
+              <li><a href="#">Sobre Nós</a></li>
+              <li><a href="#">Contato</a></li>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Cadastre-se</a></li>
+          </ul>
+      </div>
+      <div class="footerAccount">
+          <h4>Conta</h4>
+          <ul>
+              <li><a href="#">Minha Conta</a></li>
+              <li><a href="#">Pedidos</a></li>
+              <li><a href="#">Rastreio</a></li>
+              <li><a href="#">Termos</a></li>
+              <li><a href="#">Privacidade</a></li>
+          </ul>
+      </div>
+      <div class="footerContact">
+          <h4>Contato</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="SAC">
+            <div class="callUsWrapper">
+              <img src="../../assets/icons/phone.svg" alt="">
+              <div class="callUs">
+                <p>Dúvidas?</p>
+                <span>+ 1 234 567 89</span>
+              </div>
+            </div>
+            <button type="button" class="btnChat">Chat</button>
+          </div>
+          <div class="extras">
+            <div class="payment">
+              <span>Como Pagar</span>
+              <img src="../../assets/footer/flags-cards.png" alt="todas as bandeiras de cartão">
+            </div>
+            <div class="safetyStore">
+              <span>Loja Segura</span>
+              <img src="../../assets/footer/safe-buy.png" alt="compra segura">
+            </div>       
+          </div>
+      </div>
+      <div class="mobile footerHelp">
+        <div class="helpRow">
+          <h5>ATENDIMENTO</h5>
+          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12" fill="none">
+            <path d="M5.11188 6.22953L0.857422 1.97508L2.07273 0.759766L7.5425 6.22953L2.07273 11.6993L0.857422 10.484L5.11188 6.22953Z" fill="white"/>
+          </svg>
+        </div>
+        <div class="helpRow">
+          <h5>AJUDA</h5>
+          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12" fill="none">
+            <path d="M5.11188 6.22953L0.857422 1.97508L2.07273 0.759766L7.5425 6.22953L2.07273 11.6993L0.857422 10.484L5.11188 6.22953Z" fill="white"/>
+          </svg>
+        </div>
+      </div>
+      <div class="mobile footerWavesInfos">
+        <h6>©️ Waves 2024.</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

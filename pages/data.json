@@ -1,0 +1,145 @@
+[
+  {
+    "id": "tenis-puma-slipstream-01",
+    "nome": "Tênis Puma Slipstream Bball",
+    "cor": "verde/branco",
+    "tamanhos": ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
+    "tamanhosDisponiveis": ["39", "40", "41", "42", "43", "45"],
+
+    "imagens": ["../../assets/pages/products/puma/tenis-puma-slipstream-01/01.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-01/02.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-01/03.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-01/04.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-01/05.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-01/06.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-01/07.jpg"],
+    "banner": "../../assets/pages/products/puma/tenis-puma-slipstream-01/banner.png",
+
+    "precoAnterior": "599,99",
+    "precoReais": "509",
+    "precoCentavos": "99",
+    "parcelamento": "10",
+    "desconto": "15",
+    "valorParcela": "50,99",
+
+    "imagemDescricao": "../../assets/pages/products/puma/tenis-puma-slipstream-01/descriptionImage.png",
+    "descricao": "Nascido nos anos 80, celebrado nos anos 2000 e reimaginado hoje para os consumidores contemporâneos, o Slipstream combina as principais características de uma silhueta clássica de basquete, mas revisado e re-energizado. Slisptream foi reinventado sem comprometer as raízes de uma silhueta de basquete. O resultado é um acabamento com parte superior de couro com detalhes de camurça no calcanhar e os acabamentos formstripe e furações no cabedal.",
+
+    "imagemDetalhes": "../../assets/pages/products/puma/tenis-puma-slipstream-01/detailImage.png",
+    "detalhes": ["Cabedal em couro", "Entressola de Borracha", "Parte frontal e sistema de amarração de couro liso", "Parte frontal de couro caído e sobreposição de gaiola de quarto", "Painel lateral e lingueta em Materiais Sintéticos", "Faixa formstrip em couro revestido de PU texturizado", "Calcanhar em suede (camurça), costuras detalhadas na faixa formstripe e detalhes na lateral", "Marca Slipstream impressa na língua em baixo relevo e logotipo", "Cat impresso no calcanhar, detalhes em marcação em baixo relevo no calcanhar", "Palmilha moldada em malha PU"],
+    
+    "tags": ["tênis", "puma"],
+    "avaliacoes": "11",
+    "variacoes": ["tenis-puma-slipstream-02", "tenis-puma-slipstream-03", "tenis-puma-slipstream-04"]
+  },
+  {
+    "id": "tenis-puma-slipstream-02",
+    "nome": "Tênis Puma Slipstream Suede FS",
+    "cor": "vermelho/branco",
+    "tamanhos": ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
+    "tamanhosDisponiveis": ["36", "37", "39", "41", "43", "45"],
+
+    "imagens": ["../../assets/pages/products/puma/tenis-puma-slipstream-02/01.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-02/02.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-02/03.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-02/04.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-02/05.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-02/06.jpg"],
+    "banner": "../../assets/pages/products/puma/tenis-puma-slipstream-02/banner.png",
+
+    "precoAnterior": "599,99",
+    "precoReais": "509",
+    "precoCentavos": "99",
+    "parcelamento": "10",
+    "desconto": "15",
+    "valorParcela": "50,99",
+
+    "imagemDescricao": "../../assets/pages/products/puma/tenis-puma-slipstream-02/descriptionImage.png",
+    "descricao": "Nascido nos anos 80, celebrado nos anos 2000 e reimaginado hoje para os consumidores contemporâneos, o Slipstream combina as principais características de uma silhueta clássica de basquete, mas revisado e re-energizado. Slisptream foi reinventado sem comprometer as raízes de uma silhueta de basquete. O resultado é um acabamento com parte superior de couro com detalhes de camurça no calcanhar e os acabamentos formstripe e furações no cabedal.",
+
+    "imagemDetalhes": "../../assets/pages/products/puma/tenis-puma-slipstream-02/detailImage.png",
+    "detalhes": ["Cabedal em couro", "Entressola de Borracha", "Parte frontal e sistema de amarração de couro liso", "Parte frontal de couro caído e sobreposição de gaiola de quarto", "Painel lateral e lingueta em Materiais Sintéticos", "Faixa formstrip em couro revestido de PU texturizado", "Calcanhar em suede (camurça), costuras detalhadas na faixa formstripe e detalhes na lateral", "Marca Slipstream impressa na língua em baixo relevo e logotipo", "Cat impresso no calcanhar, detalhes em marcação em baixo relevo no calcanhar", "Palmilha moldada em malha PU"],
+    
+    "tags": ["tênis", "puma"],
+    "avaliacoes": "11",
+    "variacoes": ["tenis-puma-slipstream-01", "tenis-puma-slipstream-03", "tenis-puma-slipstream-04"]
+  },
+  {
+    "id": "tenis-puma-slipstream-03",
+    "nome": "Tênis Puma Slipstream",
+    "cor": "rosa/verde",
+    "tamanhos": ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
+    "tamanhosDisponiveis": ["36", "37", "39", "40", "41"],
+
+    "imagens": ["../../assets/pages/products/puma/tenis-puma-slipstream-03/01.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-03/02.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-03/03.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-03/04.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-03/05.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-03/06.jpg"],
+    "banner": "../../assets/pages/products/puma/tenis-puma-slipstream-03/banner.png",
+
+    "precoAnterior": "599,99",
+    "precoReais": "509",
+    "precoCentavos": "99",
+    "parcelamento": "10",
+    "desconto": "15",
+    "valorParcela": "50,99",
+
+    "imagemDescricao": "../../assets/pages/products/puma/tenis-puma-slipstream-03/descriptionImage.png",
+    "descricao": "Nascido nos anos 80, celebrado nos anos 2000 e reimaginado hoje para os consumidores contemporâneos, o Slipstream combina as principais características de uma silhueta clássica de basquete, mas revisado e re-energizado. Slisptream foi reinventado sem comprometer as raízes de uma silhueta de basquete. O resultado é um acabamento com parte superior de couro com detalhes de camurça no calcanhar e os acabamentos formstripe e furações no cabedal.",
+
+    "imagemDetalhes": "../../assets/pages/products/puma/tenis-puma-slipstream-03/detailImage.png",
+    "detalhes": ["Cabedal em couro", "Entressola de Borracha", "Parte frontal e sistema de amarração de couro liso", "Parte frontal de couro caído e sobreposição de gaiola de quarto", "Painel lateral e lingueta em Materiais Sintéticos", "Faixa formstrip em couro revestido de PU texturizado", "Calcanhar em suede (camurça), costuras detalhadas na faixa formstripe e detalhes na lateral", "Marca Slipstream impressa na língua em baixo relevo e logotipo", "Cat impresso no calcanhar, detalhes em marcação em baixo relevo no calcanhar", "Palmilha moldada em malha PU"],
+    
+    "tags": ["tênis", "puma"],
+    "avaliacoes": "11",
+    "variacoes": ["tenis-puma-slipstream-01", "tenis-puma-slipstream-02", "tenis-puma-slipstream-04"]
+  },
+  {
+    "id": "tenis-puma-slipstream-04",
+    "nome": "Tênis Puma Slipstream INVDR Lth",
+    "cor": "branco",
+    "tamanhos": ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
+    "tamanhosDisponiveis": ["36", "37", "38", "39", "40", "41", "42", "43", "44"],
+
+    "imagens": ["../../assets/pages/products/puma/tenis-puma-slipstream-04/01.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-04/02.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-04/03.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-04/04.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-04/05.jpg"],
+    "banner": "../../assets/pages/products/puma/tenis-puma-slipstream-04/banner.png",
+
+    "precoAnterior": "599,99",
+    "precoReais": "509",
+    "precoCentavos": "99",
+    "parcelamento": "10",
+    "desconto": "15",
+    "valorParcela": "50,99",
+
+    "imagemDescricao": "../../assets/pages/products/puma/tenis-puma-slipstream-04/descriptionImage.png",
+    "descricao": "Nascido nos anos 80, celebrado nos anos 2000 e reimaginado hoje para os consumidores contemporâneos, o Slipstream combina as principais características de uma silhueta clássica de basquete, mas revisado e re-energizado. Slisptream foi reinventado sem comprometer as raízes de uma silhueta de basquete. O resultado é um acabamento com parte superior de couro com detalhes de camurça no calcanhar e os acabamentos formstripe e furações no cabedal.",
+
+    "imagemDetalhes": "../../assets/pages/products/puma/tenis-puma-slipstream-04/detailImage.png",
+    "detalhes": ["Cabedal em couro", "Entressola de Borracha", "Parte frontal e sistema de amarração de couro liso", "Parte frontal de couro caído e sobreposição de gaiola de quarto", "Painel lateral e lingueta em Materiais Sintéticos", "Faixa formstrip em couro revestido de PU texturizado", "Calcanhar em suede (camurça), costuras detalhadas na faixa formstripe e detalhes na lateral", "Marca Slipstream impressa na língua em baixo relevo e logotipo", "Cat impresso no calcanhar, detalhes em marcação em baixo relevo no calcanhar", "Palmilha moldada em malha PU"],
+    
+    "tags": ["tênis", "puma"],
+    "avaliacoes": "11",
+    "variacoes": ["tenis-puma-slipstream-01", "tenis-puma-slipstream-02", "tenis-puma-slipstream-03"]
+  },
+  {
+    "id": "bermuda-hurley-1",
+    "nome": "Bermuda Hurley Phantom Block Party 18 - Masculina",
+    "cor": "Preto",
+    "tamanhos": ["P", "M", "G", "GG"],
+    "tamanhosDisponiveis": ["P", "M", "G", "GG"],
+
+    "imagens": ["../../assets/section/new/Hurley Phantom Block Party.png"],
+    "banner": "../../assets/pages/products/puma/tenis-puma-slipstream-04/banner.png",
+
+    "precoAnterior": "",
+    "precoReais": "499",
+    "precoCentavos": "00",
+    "parcelamento": "10",
+    "desconto": "",
+    "valorParcela": "49,00",
+
+    "imagemDescricao": "",
+    "descricao": "",
+
+    "imagemDetalhes": "",
+    "detalhes": "",
+
+    "tags": ["bermuda", "hurley"],
+    "avaliacoes": "21",
+    "variacoes": ["bermuda-hurley-2"]
+  },
+  {
+    "id": "bermuda-hurley-2",
+    "nome": "Bermuda Hurley Phantom",
+    "preco": "499,00",
+    "imagens": ["path/to/image3.jpg", "path/to/image4.jpg"],
+    "descricao": "Descrição detalhada da Bermuda."
+  }
+
+]

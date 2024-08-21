@@ -6,7 +6,7 @@ document.querySelectorAll('a[href="#"]').forEach(link => {
 });
 
 
-//animação do header durante o mobile
+//animação do recuo do header durante o mobile
 document.addEventListener("DOMContentLoaded", function() {
   const header = document.querySelector('.header');
   const body = document.body;
@@ -29,9 +29,23 @@ document.addEventListener("DOMContentLoaded", function() {
   }, { passive: true });
 });
 
-// Botão do like ativado
-document.addEventListener("DOMContentLoaded", function() {
+// Atualiza o src para o caso de outro arquivo esteja em outra subpasta e importe o setupFavoriteButtons
+function getBasePath() {
+  // Exemplo de verificação usando window.location.pathname
+  const path = window.location.pathname;
+  let basePath;
+  if (path.includes('/products/') || path.includes('/product/')) {
+    basePath = '../../assets/icons/';
+  } else {
+    basePath = 'assets/icons/';
+  }
+  return basePath;
+}
+
+// Botão do like ativado e função exportada para outros arquivos
+export function setupFavoriteButtons() {
   const favoriteButtons = document.querySelectorAll('.favoriteBtn');
+  const basePath = getBasePath();
 
   favoriteButtons.forEach(button => {
     button.addEventListener('click', function() {
@@ -47,16 +61,19 @@ document.addEventListener("DOMContentLoaded", function() {
       tooltip.style.position = 'absolute';
       tooltip.style.opacity = '0'; 
 
-      if (img.src.includes('/actived-like-icon.svg')) {
-        img.src = 'assets/icons/like-icon.svg';
-        img.alt = 'Favoritar';
-        img.classList.remove('active');
-        tooltip.innerText = 'Removido dos Meus Favoritos';
+      const iconActive = `${basePath}actived-like-icon.svg`;
+      const iconInactive = `${basePath}like-icon.svg`;
+
+      if (img.src.includes('actived-like-icon.svg')) {
+          img.src = iconInactive;
+          img.alt = 'Favoritar';
+          img.classList.remove('active');
+          tooltip.innerText = 'Removido dos Meus Favoritos';
       } else {
-        img.src = 'assets/icons/actived-like-icon.svg';
-        img.alt = 'Desfavoritar';
-        img.classList.add('active');
-        tooltip.innerText = 'Adicionado aos Meus Favoritos';
+          img.src = iconActive;
+          img.alt = 'Desfavoritar';
+          img.classList.add('active');
+          tooltip.innerText = 'Adicionado aos Meus Favoritos';
       }
 
       const updatePosition = () => {
@@ -93,8 +110,8 @@ document.addEventListener("DOMContentLoaded", function() {
       }, 1500);
     });
   });
-});
-
+};
+document.addEventListener('DOMContentLoaded', setupFavoriteButtons);
 
 // Animação de pressionar o botão menu
 document.addEventListener("DOMContentLoaded", function() {

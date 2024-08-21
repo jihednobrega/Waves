@@ -16,3 +16,8 @@ Este repositório contém o código fonte para o site "Waves", uma loja virtual 
 Este projeto serve como uma demonstração prática das habilidades que estou desenvolvendo em programação web. Estou buscando oportunidades para aplicar e expandir meu conhecimento em projetos reais e contribuir de maneira significativa para o sucesso de uma equipe.
 
 Sinta-se à vontade para explorar o código e entrar em contato através do meu perfil do GitHub para qualquer dúvida, feedback ou oportunidades de colaboração.
+
+
+## Link do projeto
+
+https://jihednobrega.github.io/Waves/

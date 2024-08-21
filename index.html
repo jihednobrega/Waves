@@ -9,10 +9,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Waves</title>
+  <link rel="icon" href="assets/icons/favicon.svg" sizes="32x32">
 
   <link rel="stylesheet" href="style.css">
 
-  <script src="script.js" defer></script>
+  <script type="module" src="script.js" defer></script>
 </head>
 <body>
   <header class="header">
@@ -21,9 +22,9 @@
         <img src="assets/icons/menu.svg" alt="Menu">
       </a>
 
-      <div class="logo">
+      <a href="#" class="logo">
         <img src="assets/logo/waves-logo.svg" alt="Logo Waves">
-      </div>
+      </a>
 
      <nav class="headerNavigation">
         <ul>
@@ -82,28 +83,28 @@
   
   <div class="bannerBrandSection">
     <div class="brandBackground">
-        <img src="assets/textures-vector/brands-texture.png" alt="Background">
-      </div>
-      <div class="brandLogos">
-        <a href="#">
-          <img src="assets/brands/Vans.svg" alt="Vans" class="vans">
-        </a>
-        <a href="#">
-          <img src="assets/brands/Oakley.svg" alt="Oakley" class="oakley">
-        </a>
-        <a href="#">
-          <img src="assets/brands/Reserva.svg" alt="Reserva" class="reserva">
-        </a>
-        <a href="#">
-          <img src="assets/brands/Hurley.svg" alt="Hurley" class="hurley">
-        </a>
-        <a href="#">
-          <img src="assets/brands/Puma.svg" alt="Puma" class="puma">
-        </a>
-      </div>
+      <img src="assets/textures-vector/brands-texture.png" alt="Background">
     </div>
+    <div class="brandLogos">
+      <a href="#">
+        <img src="assets/brands/Vans.svg" alt="Vans" class="vans">
+      </a>
+      <a href="#">
+        <img src="assets/brands/Oakley.svg" alt="Oakley" class="oakley">
+      </a>
+      <a href="#">
+        <img src="assets/brands/Reserva.svg" alt="Reserva" class="reserva">
+      </a>
+      <a href="#">
+        <img src="assets/brands/Hurley.svg" alt="Hurley" class="hurley">
+      </a>
+      <a href="#">
+        <img src="assets/brands/Puma.svg" alt="Puma" class="puma">
+      </a>
+    </div>
+  </div>
     
-    <div class="container">
+  <div class="container">
     <section class="productCollection">
       <div class="sectionTitle">
         <div class="mainTitleSection">
@@ -192,8 +193,8 @@
 
       <div class="productsWrapper">
         <div class="productCard">
-          <div class="product">
-            <a href="#" title="Tênis Slipstream Bball">
+          <div id="tenis-puma-1" class="product">
+            <a href="pages/products/index.html?id=tenis-puma-slipstream-01" title="Tênis Slipstream Bball">
               <img src="assets/sections/new/Slipstream Bball.png" alt="" class="defaultImage">
               <img src="assets/sections/new/Slipstream Bball - hover.png" alt="" class="hoverImage">
             </a>
@@ -205,10 +206,11 @@
             </div>
           </div>
           <div class="productInfos">
-            <a href="#">
-              <span class="productTag">tênis</span>
-            </a>
-            <a href="#">
+            <div class="productTags">
+              <a href="#" class="productTag">tênis</a> 
+              <a href="#" class="productTag">puma</a>
+            </div>
+            <a href="pages/products/index.html?id=tenis-puma-1">
               <h3 title="Tênis Slipstream Bball">Tênis Slipstream Bball</h3>
             </a>
             <div class="productRating">
@@ -247,8 +249,8 @@
           </div>
         </div>
         <div class="productCard">
-          <div class="product">
-            <a href="#" title="Bermuda Hurley Phantom Block Party 18 - Masculina">
+          <div id="bermuda-hurley-1" class="product">
+            <a href="pages/products/index.html?id=bermuda-hurley-1" title="Bermuda Hurley Phantom Block Party 18 - Masculina">
               <img src="assets/sections/new/Hurley Phantom Block Party.png" alt="" class="defaultImage">
               <img src="assets/sections/new/Hurley Phantom Block Party - hover.png" alt="" class="hoverImage">
             </a>
@@ -260,10 +262,11 @@
             </div>
           </div>
           <div class="productInfos">
-            <a href="#">
-              <span class="productTag">bermuda</span>
-            </a>
-            <a href="#">
+            <div class="productTags">
+              <a href="#" class="productTag">bermuda</a>
+              <a href="#" class="productTag">hurley</a>
+            </div>
+            <a href="pages/products/index.html?id=2">
               <h3 title="Bermuda Hurley Phantom Block Party 18 - Masculina">Bermuda Hurley Phantom Block Party 18 - Masculina</h3>
             </a>
             <div class="productRating">
@@ -302,8 +305,8 @@
           </div>
         </div>
         <div class="productCard">
-          <div class="product">
-            <a href="#" title="Bermuda Hurley Água Phantom+ Bock Party Solid 18 - Masculina">
+          <div id="bermuda-hurley-2" class="product">
+            <a href="pages/products/index.html?id=bermuda-hurley-2" title="Bermuda Hurley Água Phantom+ Bock Party Solid 18 - Masculina">
               <img src="assets/sections/new/Hurley Água Phantom+.png" alt="" class="defaultImage">
               <img src="assets/sections/new/Hurley Água Phantom+ - hover.png" alt="" class="hoverImage">
             </a>
@@ -315,10 +318,11 @@
             </div>
           </div>
           <div class="productInfos">
-            <a href="#">
-              <span class="productTag">bermuda</span>
-            </a>
-            <a href="#">
+            <div class="productTags">
+              <a href="#" class="productTag">bermuda</a>
+              <a href="#" class="productTag">hurley</a>
+            </div>
+            <a href="pages/products/index.html?id=3">
               <h3 title="Bermuda Hurley Água Phantom+ Bock Party Solid 18 - Masculina">Bermuda Hurley Água Phantom+ Bock Party Solid 18 - Masculina</h3>
             </a>
             <div class="productRating">
@@ -357,8 +361,8 @@
           </div>
         </div>
         <div class="productCard">
-          <div class="product">
-            <a href="#" title="Holbrook™ XL Prizm Black Polarized Matte Black">
+          <div id="oculos-oakley-1" class="product">
+            <a href="pages/products/index.html?id=oculos-oakley-1" title="Holbrook™ XL Prizm Black Polarized Matte Black">
               <img src="assets/sections/new/Holbrook™ XL Prizm.png" alt="" class="defaultImage">
               <img src="assets/sections/new/Holbrook™ XL Prizm - hover.png" alt="" class="hoverImage">
             </a>
@@ -370,10 +374,11 @@
             </div>
           </div>
           <div class="productInfos">
-            <a href="#">
-              <span class="productTag">acessórios</span>
-            </a>
-            <a href="#">
+            <div class="productTags">
+              <a href="#" class="productTag">acessórios</a>
+              <a href="#" class="productTag">oakley</a>
+            </div>
+            <a href="pages/products/index.html?id=4">
               <h3 title="Holbrook™ XL Prizm Black Polarized Matte Black">Holbrook™ XL Prizm Black Polarized Matte Black</h3>
             </a>
             <div class="productRating">
@@ -934,9 +939,7 @@
             </div>
           </div>
           <div class="productInfos">
-            <a href="#">
-              <span class="productTag">acessórios</span>
-            </a>
+            <a href="#" class="productTag">acessórios</a>
             <a href="#">
               <h3 title="Oakley Óculos de sol masculino Oo9014 Gascan">Oakley Óculos de sol masculino Oo9014 Gascan</h3>
             </a>
