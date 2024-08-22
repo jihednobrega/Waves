@@ -248,18 +248,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Função para aplicar a classe 'actived' aos elementos
   function applyActivedClass() {
-    setActivedClass('.descriptionWrapper .descriptionImage', '.descriptionWrapper .productDescription', '.descriptionTitle .buttonRotate');
-    setActivedClass('.detailsWrapper .detailsImage', '.detailsWrapper .productDetails', '.detailsTitle .buttonRotate');
+    setActivedClass('.descriptionWrapper .descriptionImage', '.descriptionWrapper .descriptionTitle', '.descriptionWrapper .productDescription', '.descriptionTitle .buttonRotate');
+    setActivedClass('.detailsWrapper .detailsImage', '.detailsWrapper .detailsTitle', '.detailsWrapper .productDetails', '.detailsTitle .buttonRotate');
   }
 
   // Função para configurar a classe 'actived' baseada nos seletores
-  function setActivedClass(imageSelector, contentSelector, buttonSelector) {
+  function setActivedClass(imageSelector, contentSelector, buttonSelector, titleSelector) {
     const image = document.querySelector(imageSelector);
+    const title = document.querySelector(titleSelector);
     const content = document.querySelector(contentSelector);
     const button = document.querySelector(buttonSelector);
 
     if (image && !image.classList.contains('actived')) {
       image.classList.add('actived');
+    }
+    if (title && !title.classList.contains('actived')) {
+      title.classList.add('actived');
     }
     if (content && !content.classList.contains('actived')) {
       content.classList.add('actived');
