@@ -51,7 +51,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       });
 
-
       //controle de número da porcentagem do desconto quando houver
       const discountElement = document.querySelector('.discount');
       if (product.desconto && product.desconto.trim() !== "") {
@@ -156,8 +155,8 @@ document.addEventListener('DOMContentLoaded', function() {
       document.querySelector('.productDescription').textContent = product.descricao;
 
       document.querySelector('.detailsImage').src = product.imagemDetalhes;
-    }
-    else {
+      checkAndToggleSizeGuideVisibility(product.tags);
+    } else {
       document.title = "Produto não encontrado";
     }
   })
@@ -213,17 +212,33 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Animação para abrir a tabela de tamanhos
-document.querySelector('.sizeGuide').addEventListener('click', function() {
-  const overlay = document.querySelector('.tableOverlay');
-  const guide = document.querySelector('.tableSizesGuide');
-  overlay.style.display = 'block';
-  guide.style.display = 'block';
-  setTimeout(() => {
-      overlay.style.opacity = 1;
-      guide.style.opacity = 1;
-      guide.style.transform = 'translate(-50%, -50%)';
-  }, 10);
-});
+function checkAndToggleSizeGuideVisibility(tags) {
+  const sizeGuide = document.querySelector('.sizeGuide');
+  const relevantTags = ["bermuda", "tenis", "tênis"];
+  const hasRelevantTag = tags.some(tag => relevantTags.includes(tag.toLowerCase()));
+
+  sizeGuide.style.display = hasRelevantTag ? 'block' : 'none';
+  sizeGuide.addEventListener('click', function() {
+    const overlay = document.querySelector('.tableOverlay');
+    const guide = document.querySelector('.tableSizesGuide');
+    const tenisTable = document.querySelector('.tenisTable');
+    const bermudaTable = document.querySelector('.bermudaTable');
+    const tagsContainer = document.querySelector('.productTags a');
+
+    if (tagsContainer.innerHTML == "bermuda") {
+      tenisTable.style.display = "none";
+    } else  {
+      bermudaTable.style.display = "none";
+    }
+    overlay.style.display = 'block';
+    guide.style.display = 'block';
+    setTimeout(() => {
+        overlay.style.opacity = 1;
+        guide.style.opacity = 1;
+        guide.style.transform = 'translate(-50%, -50%)';
+    }, 10);
+  });
+}
 
 document.querySelector('.tableOverlay').addEventListener('click', closeGuide);
 document.querySelector('.tableClose').addEventListener('click', closeGuide);
@@ -318,9 +333,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!atBottom) {
       e.preventDefault();
       productPage.scrollTop += e.deltaY;
-      console.log('Controlando scroll em .productPage');
     } else {
-      console.log('Chegou ao fim de .productPage, permitindo scroll padrão');
       allowControlledScroll = false;
     }
   }
@@ -329,7 +342,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const atTop = window.scrollY === 0;
     if (atTop && !allowControlledScroll) {
       allowControlledScroll = true;
-      console.log('Window is at top, reactivating controlled scroll in .productPage');
       triggerScrollEvent();
     }
   }

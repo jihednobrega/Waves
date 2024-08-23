@@ -50,7 +50,7 @@
     "detalhes": ["Cabedal em couro", "Entressola de Borracha", "Parte frontal e sistema de amarração de couro liso", "Parte frontal de couro caído e sobreposição de gaiola de quarto", "Painel lateral e lingueta em Materiais Sintéticos", "Faixa formstrip em couro revestido de PU texturizado", "Calcanhar em suede (camurça), costuras detalhadas na faixa formstripe e detalhes na lateral", "Marca Slipstream impressa na língua em baixo relevo e logotipo", "Cat impresso no calcanhar, detalhes em marcação em baixo relevo no calcanhar", "Palmilha moldada em malha PU"],
     
     "tags": ["tênis", "puma"],
-    "avaliacoes": "11",
+    "avaliacoes": "10",
     "variacoes": ["tenis-puma-slipstream-01", "tenis-puma-slipstream-03", "tenis-puma-slipstream-04"]
   },
   {
@@ -77,7 +77,7 @@
     "detalhes": ["Cabedal em couro", "Entressola de Borracha", "Parte frontal e sistema de amarração de couro liso", "Parte frontal de couro caído e sobreposição de gaiola de quarto", "Painel lateral e lingueta em Materiais Sintéticos", "Faixa formstrip em couro revestido de PU texturizado", "Calcanhar em suede (camurça), costuras detalhadas na faixa formstripe e detalhes na lateral", "Marca Slipstream impressa na língua em baixo relevo e logotipo", "Cat impresso no calcanhar, detalhes em marcação em baixo relevo no calcanhar", "Palmilha moldada em malha PU"],
     
     "tags": ["tênis", "puma"],
-    "avaliacoes": "11",
+    "avaliacoes": "7",
     "variacoes": ["tenis-puma-slipstream-01", "tenis-puma-slipstream-02", "tenis-puma-slipstream-04"]
   },
   {
@@ -104,18 +104,18 @@
     "detalhes": ["Cabedal em couro", "Entressola de Borracha", "Parte frontal e sistema de amarração de couro liso", "Parte frontal de couro caído e sobreposição de gaiola de quarto", "Painel lateral e lingueta em Materiais Sintéticos", "Faixa formstrip em couro revestido de PU texturizado", "Calcanhar em suede (camurça), costuras detalhadas na faixa formstripe e detalhes na lateral", "Marca Slipstream impressa na língua em baixo relevo e logotipo", "Cat impresso no calcanhar, detalhes em marcação em baixo relevo no calcanhar", "Palmilha moldada em malha PU"],
     
     "tags": ["tênis", "puma"],
-    "avaliacoes": "11",
+    "avaliacoes": "5",
     "variacoes": ["tenis-puma-slipstream-01", "tenis-puma-slipstream-02", "tenis-puma-slipstream-03"]
   },
   {
-    "id": "bermuda-hurley-1",
-    "nome": "Bermuda Hurley Phantom Block Party 18 - Masculina",
+    "id": "bermuda-hurley-01",
+    "nome": "Bermuda Hurley Phantom Eco Block Party 18 - Preto",
     "cor": "Preto",
-    "tamanhos": ["P", "M", "G", "GG"],
-    "tamanhosDisponiveis": ["P", "M", "G", "GG"],
+    "tamanhos": ["38", "40", "42", "44", "46", "48"],
+    "tamanhosDisponiveis": ["40", "42", "44"],
 
-    "imagens": ["../../assets/section/new/Hurley Phantom Block Party.png"],
-    "banner": "../../assets/pages/products/puma/tenis-puma-slipstream-04/banner.png",
+    "imagens": ["../../assets/pages/products/hurley/bermuda-hurley-01/01.jpg", "../../assets/pages/products/hurley/bermuda-hurley-01/02.jpg", "../../assets/pages/products/hurley/bermuda-hurley-01/03.jpg", "../../assets/pages/products/hurley/bermuda-hurley-01/04.jpg", "../../assets/pages/products/hurley/bermuda-hurley-01/05.jpg", "../../assets/pages/products/hurley/bermuda-hurley-01/06.jpg", "../../assets/pages/products/hurley/bermuda-hurley-01/07.jpg"],
+    "banner": "../../assets/pages/products/hurley/bermuda-hurley-01/banner.png",
 
     "precoAnterior": "",
     "precoReais": "499",
@@ -124,22 +124,177 @@
     "desconto": "",
     "valorParcela": "49,00",
 
-    "imagemDescricao": "",
-    "descricao": "",
+    "imagemDescricao": "../../assets/pages/products/hurley/bermuda-hurley-01/descriptionImage.png",
+    "descricao": "As Bermudas Hurley Phantom são produzidas para serem usadas na água, com um visual clássico e tecido elástico. Comprimento de 18 Polegadas para maior liberdade de movimento, tecido Hurley Phantom produzido à partir de uma combinação de 86% de Poliéster Reciclado e 14% Elastano com tratamento repelente à água DWR. Cós com fecho Ez Fly, bolso traseiro com fechamento em lapela. Patch bordado com o tradicional Hurley Icon e as faixas Block Party na perna direita.",
 
-    "imagemDetalhes": "",
-    "detalhes": "",
+    "imagemDetalhes": "../../assets/pages/products/hurley/bermuda-hurley-01/detailImage.png",
+    "detalhes": ["Boardshorts PHANTOM", "Tecido com DWR que repele liquidos, proporcionando máxima mobilidade, durabilidade e secagem rápida", "Composição: 86% Poliéster reciclado e 14%Elastano","Elasticidade para os 4 lados", "Faixas Block Party Contrastante", "Patch Icon na lateral", "Bolso traseiro com lapela", "Heat transfer phantom"],
 
     "tags": ["bermuda", "hurley"],
     "avaliacoes": "21",
-    "variacoes": ["bermuda-hurley-2"]
+    "variacoes": ["bermuda-hurley-02", "bermuda-hurley-03"]
   },
   {
-    "id": "bermuda-hurley-2",
-    "nome": "Bermuda Hurley Phantom",
-    "preco": "499,00",
-    "imagens": ["path/to/image3.jpg", "path/to/image4.jpg"],
-    "descricao": "Descrição detalhada da Bermuda."
+    "id": "bermuda-hurley-02",
+    "nome": "Bermuda Água Hurley Phantom Block Party 18 - Laranja",
+    "cor": "Laranja",
+    "tamanhos": ["38", "40", "42", "44", "46", "48"],
+    "tamanhosDisponiveis": ["40", "42", "46"],
+
+    "imagens": ["../../assets/pages/products/hurley/bermuda-hurley-02/01.jpg", "../../assets/pages/products/hurley/bermuda-hurley-02/02.jpg", "../../assets/pages/products/hurley/bermuda-hurley-02/03.jpg", "../../assets/pages/products/hurley/bermuda-hurley-02/04.jpg", "../../assets/pages/products/hurley/bermuda-hurley-02/05.jpg", "../../assets/pages/products/hurley/bermuda-hurley-02/06.jpg", "../../assets/pages/products/hurley/bermuda-hurley-02/07.jpg"],
+    "banner": "../../assets/pages/products/hurley/bermuda-hurley-02/banner.png",
+
+    "precoAnterior": "",
+    "precoReais": "499",
+    "precoCentavos": "00",
+    "parcelamento": "10",
+    "desconto": "",
+    "valorParcela": "49,00",
+
+    "imagemDescricao": "../../assets/pages/products/hurley/bermuda-hurley-02/descriptionImage.png",
+    "descricao": "As Bermudas Hurley Phantom são produzidas para serem usadas na água, com um visual clássico e tecido elástico. Comprimento de 18 Polegadas para maior liberdade de movimento, tecido Hurley Phantom produzido à partir de uma combinação de 86% de Poliéster Reciclado e 14% Elastano com tratamento repelente à água DWR. Cós com fecho Ez Fly, bolso traseiro com fechamento em lapela. Patch bordado com o tradicional Hurley Icon e as faixas Block Party na perna direita.",
+
+    "imagemDetalhes": "../../assets/pages/products/hurley/bermuda-hurley-02/detailImage.png",
+    "detalhes": ["Boardshorts PHANTOM", "Tecido com DWR que repele liquidos, proporcionando máxima mobilidade, durabilidade e secagem rápida", "Composição: 86% Poliéster reciclado e 14%Elastano","Elasticidade para os 4 lados", "Faixas Block Party Contrastante", "Patch Icon na lateral", "Bolso traseiro com lapela", "Heat transfer phantom"],
+
+    "tags": ["bermuda", "hurley"],
+    "avaliacoes": "24",
+    "variacoes": ["bermuda-hurley-01", "bermuda-hurley-03"]
+  },
+  {
+    "id": "bermuda-hurley-03",
+    "nome": "Bermuda Água Hurley Phantom Block Party 18 - Amarela",
+    "cor": "Amarelo",
+    "tamanhos": ["38", "40", "42", "44", "46", "48"],
+    "tamanhosDisponiveis": ["38", "46"],
+
+    "imagens": ["../../assets/pages/products/hurley/bermuda-hurley-03/01.jpg", "../../assets/pages/products/hurley/bermuda-hurley-03/02.jpg", "../../assets/pages/products/hurley/bermuda-hurley-03/03.jpg", "../../assets/pages/products/hurley/bermuda-hurley-03/04.jpg", "../../assets/pages/products/hurley/bermuda-hurley-03/05.jpg", "../../assets/pages/products/hurley/bermuda-hurley-03/06.jpg"],
+    "banner": "../../assets/pages/products/hurley/bermuda-hurley-03/banner.png",
+
+    "precoAnterior": "",
+    "precoReais": "499",
+    "precoCentavos": "00",
+    "parcelamento": "10",
+    "desconto": "",
+    "valorParcela": "49,00",
+
+    "imagemDescricao": "../../assets/pages/products/hurley/bermuda-hurley-03/descriptionImage.png",
+    "descricao": "As Bermudas Hurley Phantom são produzidas para serem usadas na água, com um visual clássico e tecido elástico. Comprimento de 18 Polegadas para maior liberdade de movimento, tecido Hurley Phantom produzido à partir de uma combinação de 86% de Poliéster Reciclado e 14% Elastano com tratamento repelente à água DWR. Cós com fecho Ez Fly, bolso traseiro com fechamento em lapela. Patch bordado com o tradicional Hurley Icon e as faixas Block Party na perna direita.",
+
+    "imagemDetalhes": "../../assets/pages/products/hurley/bermuda-hurley-03/detailImage.png",
+    "detalhes": ["Boardshorts PHANTOM", "Tecido com DWR que repele liquidos, proporcionando máxima mobilidade, durabilidade e secagem rápida", "Composição: 86% Poliéster reciclado e 14%Elastano","Elasticidade para os 4 lados", "Faixas Block Party Contrastante", "Patch Icon na lateral", "Bolso traseiro com lapela", "Heat transfer phantom"],
+
+    "tags": ["bermuda", "hurley"],
+    "avaliacoes": "9",
+    "variacoes": ["bermuda-hurley-01", "bermuda-hurley-02"]
+  },
+  {
+    "id": "oculos-oakley-01",
+    "nome": "Holbrook™ XL Prizm Black Polarized Matte Black",
+    "cor": "Preto",
+    "tamanhos": ["ÚNICO"],
+    "tamanhosDisponiveis": [],
+
+    "imagens": ["../../assets/pages/products/oakley/oculos-oakley-01/01.jpg", "../../assets/pages/products/oakley/oculos-oakley-01/02.jpg", "../../assets/pages/products/oakley/oculos-oakley-01/03.jpg", "../../assets/pages/products/oakley/oculos-oakley-01/04.jpg", "../../assets/pages/products/oakley/oculos-oakley-01/05.jpg", "../../assets/pages/products/oakley/oculos-oakley-01/06.jpg"],
+    "banner": "../../assets/pages/products/oakley/oculos-oakley-01/banner.png",
+
+    "precoAnterior": "1210,00",
+    "precoReais": "968",
+    "precoCentavos": "00",
+    "parcelamento": "10",
+    "desconto": "20",
+    "valorParcela": "96,80",
+
+    "imagemDescricao": "../../assets/pages/products/oakley/oculos-oakley-01/descriptionImage.png",
+    "descricao": "O Oakley Holbrook XL Matte Black com lentes Prizm Black Polarized é um modelo que captura a essência do estilo clássico e da inovação tecnológica. A armação Matte Black é feita do material O Matter™, que é leve e resistente, proporcionando conforto e durabilidade para uso diário. O design icônico é ampliado para se adaptar a rostos largos, mantendo as mesmas proporções de lente dos originais Holbrook em um tamanho maior. As lentes Prizm Black Polarized são projetadas para melhorar as cores, o contraste e os detalhes, para uma experiência de visão otimizada em condições de alta luminosidade. Além disso, são HDPolarized, minimizando os reflexos graças a uma tecnologia que produz lentes integradas, de uma única camada. O material da lente Plutonite® oferece proteção top contra os UV, filtrando 100% de todos os raios UVA, UVB até 400nm e uma parte da perigosa luz azul.",
+
+    "imagemDetalhes": "../../assets/pages/products/oakley/oculos-oakley-01/detailImage.png",
+    "detalhes": ["Design Icônico: Armação adequada para rostos de médios até extra largos.", "Material da Armação: O Matter™ leve e durável.", "Three-Point Fit: Conforto e desempenho que mantêm as lentes em alinhamento ótico preciso.","Lentes Prizm Polarized™: Melhoram as cores, o contraste e os detalhes, inibindo os reflexos para maior nitidez.", "Proteção contra Impactos: Lentes projetadas e testadas para garantir proteção em uma ampla variedade de condições rigorosas.", "Patch Icon na lateral", "Bolso traseiro com lapela", "Heat transfer phantom"],
+
+    "tags": ["acessórios", "oakley"],
+    "avaliacoes": "10",
+    "variacoes": ["oculos-oakley-02", "oculos-oakley-03", "oculos-oakley-04"]
+  },
+  {
+    "id": "oculos-oakley-02",
+    "nome": "Óculos Ciclismo Oakley Radar Ev Path Prizm Black",
+    "cor": "Preto",
+    "tamanhos": ["ÚNICO"],
+    "tamanhosDisponiveis": [],
+
+    "imagens": ["../../assets/pages/products/oakley/oculos-oakley-02/01.jpg", "../../assets/pages/products/oakley/oculos-oakley-02/02.jpg", "../../assets/pages/products/oakley/oculos-oakley-02/03.jpg", "../../assets/pages/products/oakley/oculos-oakley-02/04.jpg", "../../assets/pages/products/oakley/oculos-oakley-02/05.jpg", "../../assets/pages/products/oakley/oculos-oakley-02/06.jpg"],
+    "banner": "../../assets/pages/products/oakley/oculos-oakley-02/banner.png",
+
+    "precoAnterior": "",
+    "precoReais": "1.192",
+    "precoCentavos": "17",
+    "parcelamento": "10",
+    "desconto": "",
+    "valorParcela": "119,29",
+
+    "imagemDescricao": "../../assets/pages/products/oakley/oculos-oakley-02/descriptionImage.png",
+    "descricao": "Os óculos da Óculos de Sol Oakley Radar Ev Path Polished Black Prizm Black Iridium combinam tudo aquilo que aprendemos em decênios de pesquisa com os melhores atletas do mundo, e com as lentes maiores dos Radar EV e seu campo de visão estendido na região periférica superior, a tradição da performance atingiu um novo marco. ",
+
+    "imagemDetalhes": "../../assets/pages/products/oakley/oculos-oakley-02/detailImage.png",
+    "detalhes": ["Material leve da armação O Matter™ com detalhes icônicos elíticos em metal", "Lente Prizm™ para melhorar as cores, o contraste e os detalhes, otimizando a experiência de visão", "Pontas das hastes e almofadas de nariz Unobtainium® para melhor conforto e desempenho","Tecnologia da lente única performance Oakley com HDO®", "Disponíveis com lentes corretivas originais Oakley", "Estojo rígido protetivo incluído."],
+
+    "tags": ["acessórios", "oakley"],
+    "avaliacoes": "19",
+    "variacoes": ["oculos-oakley-01", "oculos-oakley-03", "oculos-oakley-04"]
+  },
+  {
+    "id": "oculos-oakley-03",
+    "nome": "Óculos Oakley Sutro Mtt Blk with PRIZM Road",
+    "cor": "Preto/Vermelho",
+    "tamanhos": ["ÚNICO"],
+    "tamanhosDisponiveis": [],
+
+    "imagens": ["../../assets/pages/products/oakley/oculos-oakley-03/01.jpg", "../../assets/pages/products/oakley/oculos-oakley-03/02.jpg", "../../assets/pages/products/oakley/oculos-oakley-03/03.jpg", "../../assets/pages/products/oakley/oculos-oakley-03/04.jpg", "../../assets/pages/products/oakley/oculos-oakley-03/05.jpg", "../../assets/pages/products/oakley/oculos-oakley-03/06.jpg"],
+    "banner": "../../assets/pages/products/oakley/oculos-oakley-03/banner.png",
+
+    "precoAnterior": "",
+    "precoReais": "799",
+    "precoCentavos": "90",
+    "parcelamento": "10",
+    "desconto": "",
+    "valorParcela": "79,99",
+
+    "imagemDescricao": "../../assets/pages/products/oakley/oculos-oakley-03/descriptionImage.png",
+    "descricao": "Os Oakley® Sutro redefinem o visual dos tradicionais óculos esporte-performance. Inspirada na vida de todos os dias dos ciclistas urbanos, esta lente altamente envolvente cria um visual forte, versátil e protege contra os elementos naturais, enfatizando a visão com a tecnologia Prizm™. Além disso, é fonte de inspiração para os atletas, que atravessarem com confiança e continuidade suas jornadas.",
+
+    "imagemDetalhes": "../../assets/pages/products/oakley/oculos-oakley-03/detailImage.png",
+    "detalhes": ["Material leve da armação O Matter™ com detalhes icônicos elíticos em metal", "Lente Prizm™ para melhorar as cores, o contraste e os detalhes, otimizando a experiência de visão", "Pontas das hastes e almofadas de nariz Unobtainium® para melhor conforto e desempenho","Tecnologia da lente única performance Oakley com HDO®", "Disponíveis com lentes corretivas originais Oakley", "Estojo rígido protetivo incluído."],
+
+    "tags": ["acessórios", "oakley"],
+    "avaliacoes": "54",
+    "variacoes": ["oculos-oakley-01", "oculos-oakley-02", "oculos-oakley-04"]
+  },
+  {
+    "id": "oculos-oakley-04",
+    "nome": "Oakley Óculos de sol masculino Oo9014 Gascan",
+    "cor": "Preto/Vermelho",
+    "tamanhos": ["ÚNICO"],
+    "tamanhosDisponiveis": [],
+
+    "imagens": ["../../assets/pages/products/oakley/oculos-oakley-04/01.jpg", "../../assets/pages/products/oakley/oculos-oakley-04/02.jpg", "../../assets/pages/products/oakley/oculos-oakley-04/03.jpg", "../../assets/pages/products/oakley/oculos-oakley-04/04.jpg", "../../assets/pages/products/oakley/oculos-oakley-04/05.jpg", "../../assets/pages/products/oakley/oculos-oakley-04/06.jpg"],
+    "banner": "../../assets/pages/products/oakley/oculos-oakley-04/banner.png",
+
+    "precoAnterior": "",
+    "precoReais": "1.592",
+    "precoCentavos": "07",
+    "parcelamento": "10",
+    "desconto": "",
+    "valorParcela": "159,20",
+
+    "imagemDescricao": "../../assets/pages/products/oakley/oculos-oakley-04/descriptionImage.png",
+    "descricao": "Os estilosos Óculos de Sol Oakley OO9014 GASCAN podem ser encontrados em armações Polished Black e Dark Grey Iridium , que são super tendência nesta estação. Elaborados a partir de Plástico e Plástico , os Óculos de Sol Oakley são super fashion e ao mesmo tempo duráveis. Na OculosWorld BR, nós oferecemos frete grátis e 2 anos de garantia.",
+
+    "imagemDetalhes": "../../assets/pages/products/oakley/oculos-oakley-04/detailImage.png",
+    "detalhes": [" Material leve da armação O Matter™", "Tecnologia de lente Oakley Twin Toric com HDO™", "Disponíveis as opções de lente polarizada e Iridium™","Disponíveis com lentes Prizm™ que melhoram as cores, o contraste e os detalhes, para uma experiência de visão otimizada"],
+
+    "tags": ["acessórios", "oakley"],
+    "avaliacoes": "29",
+    "variacoes": ["oculos-oakley-01", "oculos-oakley-02", "oculos-oakley-03"]
   }
 
 ]
