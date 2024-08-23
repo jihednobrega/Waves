@@ -1038,10 +1038,14 @@ section {
   height: 30rem;
 }
 
+.trendingProducts .trendingProductCard:nth-child(4) a {
+  display: flex;
+  height: inherit;
+}
+
 .trendingProducts .trendingProductCard:nth-child(4) .trendingBackgroundImage {
-  /* position: absolute;
-  left: -7rem; */
-  width: fit-content;
+  margin-left: -7rem;
+  width: max-content;
   object-fit: contain;
 }
 
