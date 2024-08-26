@@ -87,7 +87,7 @@
     "tamanhos": ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     "tamanhosDisponiveis": ["36", "37", "38", "39", "40", "41", "42", "43", "44"],
 
-    "imagens": ["../../assets/pages/products/puma/tenis-puma-slipstream-04/01.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-04/02.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-04/03.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-04/04.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-04/05.jpg"],
+    "imagens": ["../../assets/pages/products/puma/tenis-puma-slipstream-04/01.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-04/02.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-04/03.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-04/04.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-04/05.jpg", "../../assets/pages/products/puma/tenis-puma-slipstream-04/06.jpg"],
     "banner": "../../assets/pages/products/puma/tenis-puma-slipstream-04/banner.png",
 
     "precoAnterior": "599,99",
@@ -290,11 +290,119 @@
     "descricao": "Os estilosos Óculos de Sol Oakley OO9014 GASCAN podem ser encontrados em armações Polished Black e Dark Grey Iridium , que são super tendência nesta estação. Elaborados a partir de Plástico e Plástico , os Óculos de Sol Oakley são super fashion e ao mesmo tempo duráveis. Na OculosWorld BR, nós oferecemos frete grátis e 2 anos de garantia.",
 
     "imagemDetalhes": "../../assets/pages/products/oakley/oculos-oakley-04/detailImage.png",
-    "detalhes": [" Material leve da armação O Matter™", "Tecnologia de lente Oakley Twin Toric com HDO™", "Disponíveis as opções de lente polarizada e Iridium™","Disponíveis com lentes Prizm™ que melhoram as cores, o contraste e os detalhes, para uma experiência de visão otimizada"],
+    "detalhes": ["Material leve da armação O Matter™", "Tecnologia de lente Oakley Twin Toric com HDO™", "Disponíveis as opções de lente polarizada e Iridium™","Disponíveis com lentes Prizm™ que melhoram as cores, o contraste e os detalhes, para uma experiência de visão otimizada"],
 
     "tags": ["acessórios", "oakley"],
     "avaliacoes": "29",
     "variacoes": ["oculos-oakley-01", "oculos-oakley-02", "oculos-oakley-03"]
+  },
+  {
+    "id": "tenis-vans-01",
+    "nome": "Tênis Old Skool Black Black",
+    "cor": "Preto",
+    "tamanhos": ["34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"],
+    "tamanhosDisponiveis": ["35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"],
+
+    "imagens": ["../../assets/pages/products/vans/tenis-vans-01/01.jpg", "../../assets/pages/products/vans/tenis-vans-01/02.jpg", "../../assets/pages/products/vans/tenis-vans-01/03.jpg", "../../assets/pages/products/vans/tenis-vans-01/04.jpg", "../../assets/pages/products/vans/tenis-vans-01/05.jpg", "../../assets/pages/products/vans/tenis-vans-01/06.jpg", "../../assets/pages/products/vans/tenis-vans-01/07.jpg"],
+    "banner": "../../assets/pages/products/vans/tenis-vans-01/banner.png",
+
+    "precoAnterior": "",
+    "precoReais": "379",
+    "precoCentavos": "99",
+    "parcelamento": "10",
+    "desconto": "",
+    "valorParcela": "37,99",
+
+    "imagemDescricao": "../../assets/pages/products/vans/tenis-vans-01/descriptionImage.png",
+    "descricao": "Em 1977, o tênis Old Skool, originalmente nomeado de Vans #36 foi lançado sendo o primeiro a conter a icônica sidestripe na lateral. O que começou como um rabisco de Paul Van Doren, originalmente chamado de “Jazz Stripe”, se tornou um dos ícones da marca Vans. O Tênis Old Skool Black Black é um tênis de cano baixo com cadarço que possui cabedal de lona têxtil e camurça resistente preto, sidestripe em couro preto e viras laterais borracha na cor preta com biqueiras reforçadas para suportar o desgaste por repetição, cano acolchoado para dar suporte e flexibilidade e a clássica sola de borracha waffle vulcanizada exclusiva Vans.",
+
+    "imagemDetalhes": "../../assets/pages/products/vans/tenis-vans-01/detailImage.png",
+    "detalhes": ["Tênis de cano baixo com sidestripe original da Vans", "Fechamento com cadarço","Cabedal resistente em camurça e lona", "Colarinhos acolchoados", "Solado emborrachado em waffle exclusivo Vans"],
+
+    "tags": ["tênis", "vans"],
+    "avaliacoes": "8",
+    "variacoes": ["tenis-vans-02", "tenis-vans-03", "tenis-vans-04"]
+  },
+  {
+    "id": "tenis-vans-02",
+    "nome": "Tênis Ultrarange Exo Fired Brick",
+    "cor": "Vermelho",
+    "tamanhos": ["34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"],
+    "tamanhosDisponiveis": ["34", "35", "36", "37", "38", "39", "40", "41", "42", "44", "45"],
+
+    "imagens": ["../../assets/pages/products/vans/tenis-vans-02/01.jpg", "../../assets/pages/products/vans/tenis-vans-02/02.jpg", "../../assets/pages/products/vans/tenis-vans-02/03.jpg", "../../assets/pages/products/vans/tenis-vans-02/04.jpg", "../../assets/pages/products/vans/tenis-vans-02/05.jpg", "../../assets/pages/products/vans/tenis-vans-02/06.jpg", "../../assets/pages/products/vans/tenis-vans-02/07.jpg", "../../assets/pages/products/vans/tenis-vans-02/08.jpg", "../../assets/pages/products/vans/tenis-vans-02/09.jpg", "../../assets/pages/products/vans/tenis-vans-02/10.jpg", "../../assets/pages/products/vans/tenis-vans-02/11.jpg"],
+    "banner": "../../assets/pages/products/vans/tenis-vans-02/banner.png",
+
+    "precoAnterior": "649,99",
+    "precoReais": "454",
+    "precoCentavos": "99",
+    "parcelamento": "10",
+    "desconto": "30",
+    "valorParcela": "45,49",
+
+    "imagemDescricao": "../../assets/pages/products/vans/tenis-vans-02/descriptionImage.png",
+    "descricao": "Máximo conforto e aliado de todas as rotinas. Esteja sempre pronto para o inesperado com o Tênis UltraRange Exo Fired Brick. Com um solado co-moldado construído em padrão tratorado em waffle - exclusividade Vans - ele maximiza a cobertura, aderência e durabilidade da borracha. A nova entressola UltraCush™ Lite traz conforto e leveza para o calce. O modelo de cano baixo possui cabedal com inspiração na silhueta do icônico Old Skool - em camurça, tecido e sintético vermelho com detalhes em azul - totalmente respirável, com biqueira e antepé de borracha renovado, deixando o calce no ajuste ideal. O Exo Skeleton fornece apoio integrado nos dedos e na parede lateral medial, com uma trava de calcanhar para um ajuste seguro. No calcanhar e lingueta, traz puxadores, facilitando o calce. O logo “Vans Off The Wall” é aplicado na heeltab do calcanhar. Já a original Flag vem na lateral do tênis, enquanto a assinatura “Vans Ultrarange” é aplicada na lingueta. Conforto e estilo dentro e fora das pistas.",
+
+    "imagemDetalhes": "../../assets/pages/products/vans/tenis-vans-02/detailImage.png",
+    "detalhes": ["Suporte completo: o Exo Skeleton oferece suporte integrado nos dedos dos pés e na parede lateral medial, com trava no calcanhar para um ajuste seguro", "UltraCush™ para conforto: a entressola co-moldada UltraCush™ Lite aumenta o conforto, não o peso","Aderência: as solas com padronagem em waffle invertida e tratorada totalmente envoltas em borracha melhoram a tração e a flexibilidade", "Respiração aumentada: uma lingueta UltraCush™ com orifícios de respirabilidade oferece fluxo de ar superior", "Materiais: cabedais de camurça premium, tecido e sintético proporcionam uma aparência e sensação elevadas"],
+
+    "tags": ["tênis", "vans"],
+    "avaliacoes": "45",
+    "variacoes": ["tenis-vans-01", "tenis-vans-03", "tenis-vans-04"]
+  },
+  {
+    "id": "tenis-vans-03",
+    "nome": "Tênis Sk8-Hi Y2K Party Purple",
+    "cor": "Roxo",
+    "tamanhos": ["34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"],
+    "tamanhosDisponiveis": ["34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"],
+
+    "imagens": ["../../assets/pages/products/vans/tenis-vans-03/01.jpg", "../../assets/pages/products/vans/tenis-vans-03/02.jpg", "../../assets/pages/products/vans/tenis-vans-03/03.jpg", "../../assets/pages/products/vans/tenis-vans-03/04.jpg", "../../assets/pages/products/vans/tenis-vans-03/05.jpg", "../../assets/pages/products/vans/tenis-vans-03/06.jpg", "../../assets/pages/products/vans/tenis-vans-03/07.jpg", "../../assets/pages/products/vans/tenis-vans-03/08.jpg", "../../assets/pages/products/vans/tenis-vans-03/09.jpg", "../../assets/pages/products/vans/tenis-vans-03/10.jpg"],
+    "banner": "../../assets/pages/products/vans/tenis-vans-03/banner.png",
+
+    "precoAnterior": "",
+    "precoReais": "499",
+    "precoCentavos": "99",
+    "parcelamento": "10",
+    "desconto": "",
+    "valorParcela": "49,99",
+
+    "imagemDescricao": "../../assets/pages/products/vans/tenis-vans-03/descriptionImage.png",
+    "descricao": "O Sk8-Hi impactou ao ser o primeiro tênis de cano alto para skate a entrar em cena. Com um toque “Off The Wall”, o lendário tênis de cano alto da Vans é considerado um divisor de águas desde o seu lançamento em 1978. O Tênis Sk8-Hi Y2K Party Purple apresenta cabedal em camurça e lona resistente na cor roxa, com detalhe em estampa com elementos cósmicos. Com fechamento por amarração em cadarços, ele traz a icônica sidestripe Vans nas laterais. O tênis possui o cabedal acolchoado com biqueiras reforçadas, proporcionando mais conforto e firmeza a cada passo. Apresenta heeltab do skate tradicional com inscrição Vans em “Drop V” e “Off The Wall” aplicada no calcanhar, com etiqueta tecida “Vans Off The Wall” aplicada na lingueta. A entressola ameniza o impacto e a palmilha se molda adequadamente aos pés. Com solado em borracha vulcanizada em formato waffle - exclusividade Vans - com função antiderrapante, proporcionando maior aderência ao caminhar. Estilo e conforto para todos os momentos, seja dentro ou fora das pistas.",
+
+    "imagemDetalhes": "../../assets/pages/products/vans/tenis-vans-03/detailImage.png",
+    "detalhes": ["Tênis de cano alto com icônica Sidestripe", "UltraCush™ para conforto: a entressola co-moldada UltraCush™ Lite aumenta o conforto, não o peso","Biqueiras reforçadas", "Fechamento com cadarço", "Colarinhos de suporte acolchoados","Sola de borracha waffle exclusiva Vans", "Silhueta Sk8-Hi® clássico"],
+
+    "tags": ["tênis", "vans"],
+    "avaliacoes": "20",
+    "variacoes": ["tenis-vans-01", "tenis-vans-02", "tenis-vans-04"]
+  },
+  {
+    "id": "tenis-vans-04",
+    "nome": "Tênis Authentic Navy",
+    "cor": "Azul",
+    "tamanhos": ["34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46"],
+    "tamanhosDisponiveis": ["34", "35", "36", "37", "38", "39", "40", "42", "43", "44", "45", "46"],
+
+    "imagens": ["../../assets/pages/products/vans/tenis-vans-04/01.jpg", "../../assets/pages/products/vans/tenis-vans-04/02.jpg", "../../assets/pages/products/vans/tenis-vans-04/03.jpg", "../../assets/pages/products/vans/tenis-vans-04/04.jpg", "../../assets/pages/products/vans/tenis-vans-04/05.jpg", "../../assets/pages/products/vans/tenis-vans-04/06.jpg", "../../assets/pages/products/vans/tenis-vans-04/07.jpg", "../../assets/pages/products/vans/tenis-vans-04/08.jpg"],
+    "banner": "../../assets/pages/products/vans/tenis-vans-04/banner.png",
+
+    "precoAnterior": "",
+    "precoReais": "299",
+    "precoCentavos": "99",
+    "parcelamento": "10",
+    "desconto": "",
+    "valorParcela": "29,99",
+
+    "imagemDescricao": "../../assets/pages/products/vans/tenis-vans-04/descriptionImage.png",
+    "descricao": "Nascido em Anaheim, Califórnia, em 1966, o Authentic é o estilo tradicional original da Vans. Originalmente conhecido como Vans #44 Deck Shoes, o Authentic se tornou um ícone cult imediato e incorpora nossa atitude “Off The Wall” desde então. Construído com um perfil simples com cadarço, o Tênis Authentic Navy é um clássico que mantém viva a vibe old skool. Com cabedal em lona resistente na cor azul, apresenta vira lateral de borracha na cor branca, ilhós de metal e o solado emborrachado em waffle exclusivo Vans.",
+
+    "imagemDetalhes": "../../assets/pages/products/vans/tenis-vans-04/detailImage.png",
+    "detalhes": ["Tênis de cano baixo original da Vans", "Fechamento com cadarço","Cabedal resistente em lona", "Ilhós de metal", "Solado emborrachado em waffle exclusivo Vans"],
+
+    "tags": ["tênis", "vans"],
+    "avaliacoes": "7",
+    "variacoes": ["tenis-vans-01", "tenis-vans-02", "tenis-vans-03"]
   }
 
 ]
